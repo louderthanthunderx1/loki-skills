@@ -44,7 +44,7 @@ List every `SKILL.md` in the repo:
 - **[handoff](./skills/productivity/handoff/SKILL.md)** — Compact the current conversation into a handoff document for another agent to pick up.
 - **[caveman](./skills/productivity/caveman/SKILL.md)** — Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler, articles, and pleasantries while keeping full technical accuracy.
 - **[grill-me](./skills/productivity/grill-me/SKILL.md)** — Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree.
-- **[tva-timekeeper](./skills/productivity/tva-timekeeper/SKILL.md)** — Audit and repair the loki-skills repo structure. Sacred Timeline = the layout rules in CLAUDE.md. Detects Nexus Events (missing README entries, frontmatter drift, orphan files, broken links) across every skill and bucket, then prunes the branches on approval.
+- **[tva-timekeeper](./skills/productivity/tva-timekeeper/SKILL.md)** — Full TVA sweep of the loki-skills repo in one invocation: structure drift (READMEs, frontmatter, orphans, broken links), redundancy (dead skills, duplicate or overlapping descriptions), and trigger variance (vague descriptions, weak triggers). Reports Nexus Events across all three, prunes branches on approval.
 
 ### General
 
