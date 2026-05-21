@@ -1,0 +1,23 @@
+{
+  "name": "loki-skills",
+  "description": "Personal Claude Code skill bundle. End-to-end workflow for the agentic-platform (BPR) repo, plus engineering discipline (TDD, diagnose, scrutinize, post-mortem, zoom-out), productivity helpers (caveman, handoff, grill-me, management-talk), behavioral baseline (karpathy-guidelines), and git safety hooks.",
+  "version": "0.1.0",
+  "author": {
+    "name": "theeraphan"
+  },
+  "keywords": ["bpr", "fastapi", "langgraph", "tdd", "debugging", "code-review"],
+  "skills": [
+    "./skills/engineering/bpr-skill",
+    "./skills/engineering/diagnose",
+    "./skills/engineering/post-mortem",
+    "./skills/engineering/scrutinize",
+    "./skills/engineering/tdd",
+    "./skills/engineering/zoom-out",
+    "./skills/productivity/management-talk",
+    "./skills/productivity/handoff",
+    "./skills/productivity/caveman",
+    "./skills/productivity/grill-me",
+    "./skills/general/karpathy-guidelines",
+    "./skills/misc/git-guardrails-claude-code"
+  ]
+}
